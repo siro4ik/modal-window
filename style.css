@@ -53,16 +53,21 @@
 
 .buttonCross{
   position: absolute;
+  transition: 0.15s ease-in-out;
+  width: 20px;
   top: 5px;
   right: 5px;
   border: none;
+  border-radius: 50%;
   cursor: pointer;
   font-size: 15px;
   background: transparent;
 }
 
 .buttonCross:hover{
-  color: red
+  color: hsl(269, 33%, 52%);
+  background-color: hsl(0 , 0%, 80%) ;
+  
 }
 .buttonCancel:hover{
   background-color: rgba(48, 46, 46, 0.864);
