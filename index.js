@@ -1,4 +1,4 @@
-const OpenModalButton = document.querySelector('#open');
+const OpenModalButton = document.querySelector('.open');
 
 
 
